@@ -1,3 +1,6 @@
-//
-// Created by alex_huang on 5/4/2026.
-//
+#include <wish/Entry.h>
+#include <windows.h>
+
+WISH_APP {
+    wish::_runWindow(L"Wish", 1024, 768);
+}

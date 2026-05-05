@@ -1,0 +1,1 @@
+wish_module(wish.core SOURCES src/Log.cpp)
