@@ -1,6 +1,10 @@
 #include <wish/Entry.h>
-#include <windows.h>
 
 WISH_APP {
-    wish::_runWindow(L"Wish", 1024, 768);
+    App.title(L"Wish App")
+        .size(1024, 768)
+        .defaultWindow()
+        .background(15, 15, 15)
+        //.cornerRadius(16_dp)
+    .run();
 }
